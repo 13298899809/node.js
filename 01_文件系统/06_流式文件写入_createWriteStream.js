@@ -22,12 +22,12 @@ var ws = fs.createWriteStream("hello3.txt");
 		- 可以为对象绑定一个一次性的事件，该事件将会在触发一次以后自动失效
 
 * */
-ws.once("open",function () {
-	console.log("流打开了~~~");
+ws.once("open", function () {
+    console.log("流打开了~~~");
 });
 
-ws.once("close",function () {
-	console.log("流关闭了~~~");
+ws.once("close", function () {
+    console.log("流关闭了~~~");
 });
 
 //通过ws向文件中输出内容

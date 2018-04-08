@@ -17,15 +17,15 @@ var fs = require("fs");
 
 var path = "C:/Users/lilichao/Desktop/笔记.mp3";
 
-fs.readFile("an.jpg" , function (err , data) {
-	if(!err){
-		//console.log(data);
-		//将data写入到文件中
-		fs.writeFile("C:/Users/lilichao/Desktop/hello.jpg",data,function(err){
-			if(!err){
-				console.log("文件写入成功");
-			}
-		} );
-	}
+fs.readFile("an.jpg", function (err, data) {
+    if (!err) {
+        //console.log(data);
+        //将data写入到文件中
+        fs.writeFile("C:/Users/lilichao/Desktop/hello.jpg", data, function (err) {
+            if (!err) {
+                console.log("文件写入成功");
+            }
+        });
+    }
 });
 

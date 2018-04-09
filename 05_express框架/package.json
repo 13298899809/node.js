@@ -1,0 +1,8 @@
+{
+  "name": "05_express框架",
+  "version": "0.0.1",
+  "dependencies": {
+    "ejs": "^2.5.8",
+    "express": "^4.16.3"
+  }
+}

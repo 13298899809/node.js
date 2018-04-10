@@ -1,0 +1,7 @@
+{
+  "name": "03_mongoose",
+  "version": "0.0.1",
+  "dependencies": {
+    "mongoose": "^5.0.13"
+  }
+}

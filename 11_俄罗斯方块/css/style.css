@@ -1,0 +1,42 @@
+.game{
+    width: 200px; /*20*10*/
+    height: 400px;
+    background-color: #0cba4d;
+    border-left: 1px solid blueviolet;
+    border-right: 1px solid blueviolet;
+    border-bottom: 1px solid blueviolet;
+    position: absolute; /*绝对定位*/
+    top: 10px;
+    left: 10px;
+}
+.next{
+    width: 80px;
+    height: 80px;
+    background-color: #0cba4d;
+    position: absolute; /*绝对定位*/
+    top: 10px;
+    left: 250px;
+    border: 1px solid blueviolet;
+}
+.info{
+    position: absolute; /*绝对定位*/
+    top: 100px;
+    left: 250px;
+}
+.none,.current,.done{
+    width: 20px;
+    height: 20px;
+    position: absolute; /*绝对定位*/
+    box-sizing: border-box;/*自适应布局*/
+}
+.none{
+    background-color: #F2FADD;
+}
+.current{
+    background-color: deeppink;
+    border: 1px solid red;
+}
+.done{
+    background-color: gray;
+    border: 1px solid black;
+}
